@@ -1,0 +1,230 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [ "Hi", "How are you", "Is anyone there?", "Hello", "Good day","hey" ],
+            "responses": [ "Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?","hey hi" ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [ "Bye", "See you later", "Goodbye" ],
+            "responses": [ "See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon." ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [ "Thanks", "Thank you", "That's helpful" ],
+            "responses": [ "Happy to help!", "Any time!", "My pleasure" ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [ "What hours are you open?", "What are your hours?", "When are you open?", "When is the time to contact ?","timings", "At what time do you provide services ?" , "college timings","what are the timings of the college ?" ],
+            "responses": [ "We're open every day from 9AM to 5PM", "Our working hours are 9AM to 5PM every day" ]
+        },
+        {
+	          "tag": "JNTUACEK stands",
+	          "patterns": ["JNTUACEK stands for", "what is JNTUACEK","JNTUACEK full form"],
+	          "responses": ["Jawaharlal Nehru Technological University Anantapur College of Engineering Kalikiri"]
+			
+	      },
+        {
+            "tag": "location",
+            "patterns": [ "What is your location?", "Where are you located?", "What is your address?", "Where is college address?", "where is this college?", "location", "How can I contact you?" ],
+            "responses": [ "We are on Madanapalli road, Kalikiri", "Our college is situated in Kalikiri",  "Our location is Madanapalli Road, Kalikiri"]
+        },
+        {
+            "tag": "courses",
+            "patterns": [ "what are the courses avilable in JNTUACEK?", "courses in JNTUA Kalikiri", "coures offered in JNTC","courses", "what are courses available in JNTUA Kalikiri?" ],
+            "responses": [ "We offer B.Tech course", "We provide B.Tech with Dual degree courses also for interested students." ]
+        },
+        {
+            "tag": "B.Tech branches",
+            "patterns": [ "What are the branches that you provide?", "Which branches do you provide?", "B.Tech branches?","branches", "branches of B.Tech in JNTUA Kalikiri?" ],
+            "responses": [ "We provide CIVIL, EEE, MECH, ECE, CSE, FDT(FOOD TECHNOLOGY)" ,"B.Tech - Civil Engineering B.Tech - Computer Science & Engineering B.Tech - Electronics & Communication Engineering B.Tech - Electrical & Electronics Engineering B.Tech - Mechanical Engineering B.Tech – Food Technology" ]
+        },
+        {
+            "tag": "JNTUACEK placements",
+            "patterns": [ "what are the placements of JNTUA Kalikiri", "placements","How many students have been placed?", "how many companies come for JNTUA Kalikiri?", "what are the placements?" ],
+            "responses": [ "more the 100+ students have been placed in 2021 through out all branches", "more than 100+ students have been placed in various companies" ],
+            "context_set": "placements"
+        },
+        {
+            "tag": "working days",
+            "patterns": ["what are working days?", "working days" ],
+            "responses" : ["monday to friday"]
+        },
+        {
+            "tag": "Fee structure for B.Tech",
+            "patterns": [ " What is the fee structure for B. Tech?", "fees","fee","fees for B.Tech?", "what is the fee of B.Tech?", "fees" ],
+            "responses": [ "convenor students can get the fee reimbursement. and government employee family student have to pay 10000 per year." ]
+        },
+        {
+            "tag": "Principal of JNTUA Kalikiri",
+            "patterns": [ "who is principal of JNTUA Kalikiri ?", "principal name?","principal" ,"principal name"," name of the principal"],
+            "responses": [ "Dr. M. L. S DEVAKUMAR GARU" ]
+        },
+        {
+            "tag": "Vice-Principal of JNTUA Kalikiri",
+            "patterns": [ "who is Vice-principal of JNTUA Kalikiri ?", "Vice-principal name?","vice-principal" ,"vice-principal name"," name of the vice-principal"],
+            "responses": [ "Dr. C.SUBASH GARU" ]
+        },
+        {
+            "tag" : " CSE lab",
+            "patterns" : [ "where is CSE lab?", "cse lab","CSE lab","How can I reach CSE lab?", "what is the address of CSE lab?", "what is the location of CSE lab?" ],
+            "responses" : [ "South-east of academic block", "1st floor CSEdepartment academicblock" ]
+        },
+        {
+            "tag" : " ECE lab",
+            "patterns" : [ "where is ECE lab?", "How can I reach ECE lab?","ece lab","ECE lab","what is the location of ECE lab?", "what is the address of ECE lab?" ],
+            "responses" : [ "North-east of academic block","ece department academic block","ECE department" ]
+        },
+        {
+            "tag" : "MECH lab",
+            "patterns" : [ "where is MECH lab?","mech lab","MECH lab", "How can I reach MECH lab?", "what is the location of MECH lab?", "what is the address of MECH lab?" ],
+            "responses" : [ "South-west of academic block", "mechanical department academic block","mechanical department" ]
+        },
+        {
+            "tag" : "EEE lab",
+            "patterns" : [ "where is EEE lab?", "How can I reach EEE lab?","ECE lab","ece lab", "what is the location of EEE lab?", "What is the address of EEE lab?" ],
+            "responses" : [ "South-west of academic block", "ECE department academic block" ]
+        },
+        {
+            "tag" : "CIVIL lab",
+            "patterns" : [ "where is CIVIL lab?","CIVIL lab","civil lab", "How can I reach CIVIL lab?", "what is the location of CIVIL lab?", "what is the address of CIVIL lab?" ],
+            "responses" : [ "South of academic block","CIVIL department academic block" ]
+        },
+        {
+             "tag" : " FDT lab",
+             "patterns" : [ "where is FDT lab?", "How can I reach FDT lab?", "what is the location of FDT lab?", "what is the address of FDT lab?" ],
+             "responses" : [ "North-edge of academic block","fdt department academic department" ]
+        },
+        {
+            "tag": "WORKSHOPS",
+            "patterns": [ "workshops", "WORKSHOPS", "About workshops","workshop location" ],
+            "response" : ["workshops are common for all first years and for all years of mechanical engineering students","workshops are located on the way to girls hostel and staff quarters"]
+        },
+        {
+            "tag": "HOSTELS AND STAFF QUARTERS",
+            "patterns": [ "hostel facilities", "hostels", "staff quarters", "Hostels" ],
+            "response": ["there is hostel availability for both girls and boys with all facilities","staff quarters are there for all the feculty and workers"]
+        },
+        {
+            "tag": " CSE about ",
+            "patterns": [ "about CSE department ", "CSE department ", "cse", "about cse", "CSE", "what does CSE department include " ],
+            "responses": [ "Department of Computer science and Engineering was established in the year 2013 with the objective of imparting quality education in the field of Computer science and Engineering for more details visit https://www.jntuacek.ac.in" ]
+        },
+        {
+            "tag": "EEE about",
+            "patterns": [ "about EEE department", "eee", "eee about", "EEE", "EEE about", "tell me about eee department" ],
+            "responses": [ "Department of Electrical and Electronics Engineering was established in the year 2013 with the objective of imparting quality education in the field of Electrical and Electronics Engineering. for more details visit https://www.jntuacek.ac.in" ]
+        },
+        {
+            "tag": "ECE about",
+            "patterns": [ "about ECE department", "ece", "ece about", "ECE", "ECE about", "tell me about ece department" ],
+            "responses": [ "Department of  Electronics and Communications Engineering was established in the year 2013 with the objective of imparting quality education in the field of Electronics and Communications Engineering. for more details visit https://www.jntuacek.ac.in" ]
+        },
+        {
+            "tag": "CIVIL about",
+            "patterns": [ "about CIVIL department", "CIVIL", "civil about", "civil", "about civil", "tell me about civil department" ],
+            "responses": ["Department of Civil Engineering was established in the year 2013 with the objective of imparting quality education in the field of Civil Engineering. for more details visit https://www.jntuacek.ac.in" ]
+        },
+        {
+            "tag": "MECHANICAL about",
+            "patterns": [ "about MECHANICAL department", "MECHANICAL", "mechanical", "about mechanical", "mechanical about", "tell me about mechanical department","MECH","mech" ],
+            "responses": ["Department of Mechanical Engineering was established in the year 2013 with the objective of imparting quality education in the field of Mechanical Engineering. for more details visit https://www.jntuacek.ac.in" ]
+        },
+        {
+            "tag": "FOOD TECHNOLOGY about",
+            "patterns": [ "about FDT department", "ft", "FT", "fdt", "FDT", "about FT department", "about fdt", "about FDT", "about ft", "about FT", "tell me about food technology department" ],
+            "responses": [ "Department of FOOD TECHNOLOGY was established in the year 2018 with the objective of imparting quality education in the field of FOOD TECHNOLOGY. for more details visit https://www.jntuacek.ac.in" ]
+        },
+        {
+            "tag": "PHYSICS DEPARTMENT AND LAB",
+            "patterns": [ "physics lab", "where is physics lab", "physics", "PHYSICS"],
+            "responses": ["Department of physics is common course for first year,and it is mandatory to learn.Physics lab is located at first floor in administration block."]
+        },
+        {
+            "tag": "CHEMISTRY DEPARTMENT AND LAB",
+            "patterns": [ "chemistry", "CHEMISTRY", "chemistry lab", "chem", "CHEM", "chemistry hod" ],
+            "responses": [ "Department of chemistry is common course for first year,and it is mandatory to learn.Chemistry lab is located at first floor in administration block.HOD of this department is DR.N.SARITHA." ]
+        },
+        {
+            "tag": "MATHEMATICS DEPARTMENT",
+            "patterns": [ "maths", "MATHS", "MATHS DEPARTMENT", "maths department" ],
+            "responses": ["Department of mathematics is common course upto second year."]
+        },
+        {
+            "tag": "ENGLISH DEPARTMENT AND ENGLISH LAB",
+            "patterns": [ "english", "ENGLISH", "communication lab", "communication skills department", "communication skills", "english hod" ],
+            "responses": ["Department of English is common for all the first year and third year students.HOD of the department is Ms.Vimala.V"]
+        },
+        {
+            "tag": "HUMANITIES AND SOCIAL SCIENCE",
+            "patterns": [ "Humanities", "HUMANITIES", "humanities", "Humanities HOD", "humanities hod" ],
+            "responses": [ "Department of humanities and social science is common for all students in every year.HOD of humanities and social science is Dr.N.SARITHA" ]
+        },
+        {
+            "tag": "ANTI RAGGING",
+            "patterns": [ "anti ragging committee", "anti ragging", "ANTI RAGGING", "RAGGING", "ragging","head of anti ragging","HEAD OF ANTI RAGGING","anti ragging squad","ANTI RAGGING SQUAD"],
+            "responses": ["ANTI RAGGING COMMITTEE head is Dr.N.SARITHA","Ragging is strictly prohibited in JNTUACEK,if at all anyone is encouraged they would be suspended."]
+        },
+        {
+            "tag": "NSS",
+            "patterns": [ "NSS", "nss", "NSS programs", "nss programs","head of NSS" ],
+            "response": ["lot of programs are being held under NSS programs like: yoga, cleaning, helping society, martial arts,etc","Head of NSS is Mr. Rajendra Prasad Garu"]
+        },
+        {
+            "tag": "ABOUT COLLEGE",
+            "patterns": [ "about COLLEGE", "about college auditorium", "AUDITORIUM", "where is auditorium", "auditorium", "Canteen", "where is canteen", "seminar halls", "ground", "indoor stadium" ],
+            "responses": [ "visit https://www.jntuacek.ac.in/ to know more details about college " ]
+        },  
+        {
+            "tag": "library timings",
+            "patterns": [ "library opening hours", "library hours", "opening hours for library", "library timings" ],
+            "responses": [ " The library is kept open all working days from 10:00 AM TO 5:30 PM" ]
+        },
+        {
+            "tag": "OFFICES",
+            "patterns": [ "hostel office", "Hostel office", "examination section", "College office", "college office", "Examination section" ],
+            "responses":  ["all offices are at administration block"]
+        },
+        {
+            "tag": "ADMISSIONS",
+            "patterns": [ "admission process", "admissions", "Admissions", "Admission process", "lateral entry admissions" ],
+            "responses": [ "only the students who qualified in AP EAPCET will get admission in college and there is no management seats", "there is only 66 seats available for each branch", "there is only 12 seats available for lateral entry studendts in each branch" ]
+        },
+        {
+            "tag": "GAMES AND SPORTS",
+            "patterns": [ "Games", "games", "sports", "Sports", "Extra-curricular activities", "extracurricular activities" ],
+            "responses": ["lot of games and sports are being conducting for every function or program in college and also PET'S staff for both girls and bpys separately","there is indoor stadium and ground for both girls and boys to play everyday"]
+        },
+        {
+            "tag": " EEE hod",
+            "patterns": [ "Who is EEE hod?", "EEE hod name?", "name of EEE hod?", "EEE hod", "eee hod" ],
+            "responses": [ "Prof. M. VENKATESWARA ROA" ]
+        },
+        {
+            "tag": " library ",
+            "patterns": [ "where is library?", "library?", "library", " tell me about library" ],
+            "responses": [ "there is library in jntuacek","The central library of this institute fulfilling the academic requirements of user community. It is housed in a three stair separate building with a built-up area of 2134 Sq.", "Stock area fulfilled with text books of all Engineering and Basic Sciencesin which available book collection in stack area is 7666"]
+        }, 
+        {
+            "tag": "ECE hod",
+            "patterns": [ "Who is ECE hod?", "ECE hod name?", "name of ECE hod?", "ece hod", "ECE hod" ],
+            "responses": [ "Dr. C. SUBHAS" ]
+        },
+        {
+            "tag": "MECH hod",
+            "patterns": [ "Who is MECH hod?", "MECH hod name?", "name of MECH hod?", "MECH hod", "mech hod" ],
+            "responses": [ "Dr.V. NAGA PRASAD NAIDU " ]
+        },
+        {
+            "tag": " CIVIL hod",
+            "patterns": [ "Who is CIVIL hod?", "CIVIL hod name?", "name of CIVIL hod?", "CIVIL hod", "civil hod" ],
+            "responses": [ "Dr. D. NEERAJA" ]
+        },
+        {
+            "tag": "CSE hod",
+            "patterns": [ "Who is CSE hod?", "CSE hod name?", "name of CSE hod?", "cse hod", "CSE hod" ],
+            "responses": [ "Dr. SHAIK NASEERA" ]
+        }]}
